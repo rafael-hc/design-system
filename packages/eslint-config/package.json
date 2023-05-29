@@ -1,5 +1,6 @@
 {
   "name": "@rhcode/eslint-config",
+  "version": "1.0.0",
   "license": "ISC",
   "private": true,
   "main": "index.js",
