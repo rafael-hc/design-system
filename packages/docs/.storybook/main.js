@@ -14,17 +14,15 @@ const config = {
       },
     },
   ],
-  framework: {
-    name: "@storybook/react-vite",
-    options: {},
-  },
-  docs: {
-    autodocs: "tag",
+  framework: "@storybook/react-vite",
+  core: {
+    "builder": "@storybook/builder-vite"
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = "/design-system/"
+      config.base = '/design-system/'
     }
+
     return config
   }
 };
