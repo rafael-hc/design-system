@@ -1,0 +1,47 @@
+{
+  "name": "@sell-solutions/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.11",
+    "@storybook/addon-interactions": "^7.0.11",
+    "@storybook/addon-links": "^7.0.11",
+    "@storybook/addon-styling": "^1.0.8",
+    "@storybook/blocks": "^7.0.11",
+    "@storybook/manager-api": "^7.0.11",
+    "@storybook/react": "^7.0.11",
+    "@storybook/react-vite": "^7.0.11",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/theming": "^7.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "postcss": "^8.4.23",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.11",
+    "vite": "^4.3.5"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.0.9",
+    "@sell-solutions/eslint-config": "*",
+    "@sell-solutions/react": "*",
+    "@sell-solutions/tokens": "*",
+    "@sell-solutions/ts-config": "*",
+    "@storybook/addon-a11y": "^7.0.18",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
