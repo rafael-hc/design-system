@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-end-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,7 +21,7 @@ jobs:
 
       - run: npm run build
 
-      - name: Deploy Storybook
+      - name: Deploy storybook
         working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
