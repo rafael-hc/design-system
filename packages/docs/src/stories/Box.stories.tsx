@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps, Text } from '@sell-solutions/react'
+import { Box, BoxProps, Text } from '@rhcode/react'
 
 export default {
   title: 'Surfaces/Box',

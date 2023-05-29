@@ -1,5 +1,5 @@
 {
-  "name": "@sell-solutions/eslint-config",
+  "name": "@rhcode/eslint-config",
   "license": "ISC",
   "private": true,
   "main": "index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@sell-solutions/react",
+  "name": "@rhcode/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -15,9 +15,9 @@
   "license": "MIT",
   "devDependencies": {
     "@phosphor-icons/react": "^2.0.9",
-    "@sell-solutions/eslint-config": "*",
-    "@sell-solutions/tokens": "*",
-    "@sell-solutions/ts-config": "*",
+    "@rhcode/eslint-config": "*",
+    "@rhcode/tokens": "*",
+    "@rhcode/ts-config": "*",
     "@tailwindcss/forms": "^0.5.3",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",

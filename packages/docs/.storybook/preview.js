@@ -1,4 +1,4 @@
-import '@sell-solutions/react/dist/index.css';
+import '@rhcode/react/dist/index.css';
 import { themes } from "@storybook/theming";
 /** @type { import('@storybook/react').Preview } */
 const preview = {

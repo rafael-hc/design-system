@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Checkbox, CheckboxProps } from '@sell-solutions/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@rhcode/react'
 
 export default {
   title: 'Form/Checkbox',

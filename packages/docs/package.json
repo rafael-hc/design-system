@@ -1,5 +1,5 @@
 {
-  "name": "@sell-solutions/docs",
+  "name": "@rhcode/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -34,10 +34,10 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.9",
-    "@sell-solutions/eslint-config": "*",
-    "@sell-solutions/react": "*",
-    "@sell-solutions/tokens": "*",
-    "@sell-solutions/ts-config": "*",
+    "@rhcode/eslint-config": "*",
+    "@rhcode/react": "*",
+    "@rhcode/tokens": "*",
+    "@rhcode/ts-config": "*",
     "@storybook/addon-a11y": "^7.0.18",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

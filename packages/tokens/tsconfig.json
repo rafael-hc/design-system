@@ -1,5 +1,5 @@
 {
-  "extends": "@sell-solutions/ts-config/base.json",
+  "extends": "@rhcode/ts-config/base.json",
   "include": [
     "src"
   ],

@@ -1,4 +1,4 @@
-import { colors } from '@sell-solutions/tokens'
+import { colors } from '@rhcode/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

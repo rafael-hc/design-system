@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Heading, HeadingProps } from '@sell-solutions/react'
+import { Heading, HeadingProps } from '@rhcode/react'
 
 export default {
   title: 'Typography/Heading',

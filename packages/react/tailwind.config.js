@@ -6,7 +6,7 @@ const {
   lineHeights,
   radii,
   space,
-} = require('@sell-solutions/tokens')
+} = require('@rhcode/tokens')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.tsx', './index.html'],

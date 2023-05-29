@@ -1,5 +1,5 @@
 {
-  "name": "@sell-solutions/tokens",
+  "name": "@rhcode/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@sell-solutions/ts-config": "*",
-    "@sell-solutions/eslint-config": "*",
+    "@rhcode/ts-config": "*",
+    "@rhcode/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
   }
