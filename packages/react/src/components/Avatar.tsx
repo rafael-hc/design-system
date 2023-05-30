@@ -8,7 +8,7 @@ export interface AvatarProps
 
 export function Avatar(props: AvatarProps) {
   return (
-    <AvatarPrimitive.Root className="w-11 h-11 inline-flex select-none overflow-hidden items-center justify-center rounded-full ">
+    <AvatarPrimitive.Root className="w-16 h-16 inline-flex select-none overflow-hidden items-center justify-center rounded-full ">
       <AvatarPrimitive.Image
         className="w-full h-full rounded-[inherit] object-cover"
         {...props}
