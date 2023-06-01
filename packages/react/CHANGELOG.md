@@ -1,5 +1,11 @@
 # @rhcode/react
 
+## 2.0.5
+
+### Patch Changes
+
+- Set props as optional in some components
+
 ## 2.0.4
 
 ### Patch Changes

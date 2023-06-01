@@ -2,7 +2,7 @@ import { ComponentProps, forwardRef, ElementRef } from 'react'
 
 export interface TextInputProps extends ComponentProps<'input'> {
   prefix?: string
-  sizes: 'sm' | 'md'
+  sizes?: 'sm' | 'md'
 }
 export const TextInput = forwardRef<ElementRef<'input'>, TextInputProps>(
   ({ prefix, sizes = 'md', ...props }: TextInputProps, ref) => {

@@ -2,7 +2,7 @@
 import { ComponentProps, ReactNode } from 'react'
 
 export interface BoxProps extends ComponentProps<'div'> {
-  children: ReactNode
+  children?: ReactNode
   as?: keyof JSX.IntrinsicElements
 }
 export function Box({ children, as = 'div', ...props }: BoxProps) {
