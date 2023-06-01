@@ -1,5 +1,11 @@
 # @rhcode/react
 
+## 2.0.2
+
+### Patch Changes
+
+- Fix style TextInput
+
 ## 2.0.1
 
 ### Patch Changes
