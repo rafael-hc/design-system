@@ -5,7 +5,7 @@
 import { ComponentProps, ReactNode } from 'react'
 
 export interface HeadingProps extends ComponentProps<'h2'> {
-  children: ReactNode
+  children?: ReactNode
   size?:
   | 'sm'
   | 'md'

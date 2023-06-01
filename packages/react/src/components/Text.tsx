@@ -4,7 +4,7 @@
 import { ComponentProps, ReactNode } from 'react'
 
 export interface TextProps extends ComponentProps<'p'> {
-  children: ReactNode
+  children?: ReactNode
   size?:
   | 'xxs'
   | 'xs'
