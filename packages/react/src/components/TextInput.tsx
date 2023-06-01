@@ -20,7 +20,7 @@ export const TextInput = forwardRef<ElementRef<'input'>, TextInputProps>(
           </span>
         )}
         <input
-          className="right-0 w-full border-0 bg-transparent font-default text-sm font-regular text-white placeholder:text-gray-400 focus:right-0 focus:outline-0 disabled:cursor-not-allowed"
+          className="right-0 w-full border-0 bg-transparent font-default text-sm font-regular text-white placeholder:text-gray-400 focus:outline-0 focus:ring-0 focus:ring-offset-0 disabled:cursor-not-allowed"
           {...props}
           ref={ref}
         />
