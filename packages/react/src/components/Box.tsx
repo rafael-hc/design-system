@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
 import { ComponentProps, ReactNode } from 'react'
-import { Text } from './Text'
 import classNames from 'classnames'
 
 export interface BoxProps extends ComponentProps<'div'> {
@@ -18,9 +17,6 @@ export function Box({ children, className, as = 'div', ...props }: BoxProps) {
       )}
       {...props}
     >
-      <Text as="strong" className="bg-red-500 text-green-600" size="6xl">
-        oi
-      </Text>
       {children}
     </Tag>
   )

@@ -1,5 +1,11 @@
 # @rhcode/react
 
+## 2.1.1
+
+### Patch Changes
+
+- Fix bug in the Box component
+
 ## 2.1.0
 
 ### Minor Changes
