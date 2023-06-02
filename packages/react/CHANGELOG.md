@@ -1,5 +1,11 @@
 # @rhcode/react
 
+## 2.1.0
+
+### Minor Changes
+
+- Add the option to customize the components through the 'className' prop
+
 ## 2.0.6
 
 ### Patch Changes

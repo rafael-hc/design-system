@@ -2,9 +2,11 @@
 /* eslint-disable no-undef */
 
 import { ComponentProps, ReactNode } from 'react'
+import classNames from 'classnames'
 
 export interface TextProps extends ComponentProps<'p'> {
   children?: ReactNode
+  className?: string
   size?:
   | 'xxs'
   | 'xs'
@@ -21,11 +23,11 @@ export interface TextProps extends ComponentProps<'p'> {
   | '9xl'
   as?: keyof JSX.IntrinsicElements
 }
-export function Text({ children, size = 'md', as = 'p', ...props }: TextProps) {
+export function Text({ children, className, size = 'md', as = 'p', ...props }: TextProps) {
   const Tag: any = as
   return (
     <Tag
-      className={`text-gray-100 font-default leading-base m-0 text-${size}`}
+      className={classNames(`text-gray-100 font-default leading-base m-0 text-${size}`, className)}
       {...props}
     >
       {children}

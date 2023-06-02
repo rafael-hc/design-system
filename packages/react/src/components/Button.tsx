@@ -1,7 +1,9 @@
+import classNames from 'classnames'
 import { ButtonHTMLAttributes, ReactNode } from 'react'
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children?: ReactNode
+  className?: string
   size?: 'md' | 'sm' | 'full'
   variant?: 'primary' | 'secondary' | 'tertiary' | 'cancel'
   defaultStyle?: string
@@ -40,11 +42,19 @@ export function Button(props: ButtonProps) {
   return variants[variant]
 }
 
-function PrimaryButton({ children, defaultStyle, ...rest }: ButtonProps) {
+function PrimaryButton({
+  children,
+  className,
+  defaultStyle,
+  ...rest
+}: ButtonProps) {
   return (
     <button
       {...rest}
-      className={`${defaultStyle} bg-ignite-500 text-white transition-all enabled:hover:bg-ignite-300 disabled:bg-gray-200`}
+      className={classNames(
+        `${defaultStyle} bg-ignite-500 text-white transition-all enabled:hover:bg-ignite-300 disabled:bg-gray-200`,
+        className,
+      )}
     >
       {children}
       {/*  */}
@@ -54,6 +64,7 @@ function PrimaryButton({ children, defaultStyle, ...rest }: ButtonProps) {
 
 function SecondaryButton({
   children,
+  className,
 
   defaultStyle,
   ...rest
@@ -61,7 +72,10 @@ function SecondaryButton({
   return (
     <button
       {...rest}
-      className={`${defaultStyle} border-2 border-ignite-500 text-ignite-300 enabled:hover:bg-ignite-500 enabled:hover:text-white disabled:border-gray-200 disabled:text-gray-200`}
+      className={classNames(
+        `${defaultStyle} border-2 border-ignite-500 text-ignite-300 enabled:hover:bg-ignite-500 enabled:hover:text-white disabled:border-gray-200 disabled:text-gray-200`,
+        className,
+      )}
     >
       {children}
     </button>
@@ -70,6 +84,7 @@ function SecondaryButton({
 
 function TertiaryButton({
   children,
+  className,
 
   defaultStyle,
   ...rest
@@ -77,16 +92,27 @@ function TertiaryButton({
   return (
     <button
       {...rest}
-      className={`${defaultStyle} text-gray-100 enabled:text-white disabled:text-gray-600`}
+      className={classNames(
+        `${defaultStyle} text-gray-100 enabled:text-white disabled:text-gray-600`,
+        className,
+      )}
     >
       {children}
     </button>
   )
 }
 
-function CancelButton({ children, defaultStyle, ...rest }: ButtonProps) {
+function CancelButton({
+  children,
+  className,
+  defaultStyle,
+  ...rest
+}: ButtonProps) {
   return (
-    <button {...rest} className={`${defaultStyle} bg-red-600`}>
+    <button
+      {...rest}
+      className={classNames(`${defaultStyle} bg-red-600`, className)}
+    >
       {children}
     </button>
   )

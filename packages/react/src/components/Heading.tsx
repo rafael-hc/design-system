@@ -3,9 +3,11 @@
 /* eslint-disable no-undef */
 
 import { ComponentProps, ReactNode } from 'react'
+import classNames from 'classnames'
 
 export interface HeadingProps extends ComponentProps<'h2'> {
   children?: ReactNode
+  className?: string
   size?:
   | 'sm'
   | 'md'
@@ -29,11 +31,11 @@ enum Sizes {
   '6xl' = 'text-9xl',
 }
 
-export function Heading({ children, size = 'md', as = 'h2', ...props }: HeadingProps) {
+export function Heading({ children, className, size = 'md', as = 'h2', ...props }: HeadingProps) {
   const Tag: any = as
   return (
     <Tag
-      className={`text-gray-100 font-default leading-shorter m-0 ${Sizes[size]}`}
+      className={classNames(`text-gray-100 font-default leading-shorter m-0 ${Sizes[size]}`, className)}
       {...props}
     >
       {children}

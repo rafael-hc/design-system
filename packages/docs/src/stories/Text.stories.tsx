@@ -40,5 +40,6 @@ export const Strong: StoryObj<TextProps> = {
   args: {
     children: 'Submit',
     as: 'strong',
+    className: 'bg-red-500',
   },
 }
