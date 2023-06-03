@@ -1,5 +1,11 @@
 # @rhcode/react
 
+## 2.1.2
+
+### Patch Changes
+
+- Removed Radix from the Avatar component
+
 ## 2.1.1
 
 ### Patch Changes

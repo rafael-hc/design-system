@@ -6,7 +6,7 @@ export default {
   component: Avatar,
   tags: ['autodocs'],
   args: {
-    src: 'https://github.com/rafael-hc.png',
+    src: '',
     alt: 'Rafael Henrique',
   },
   argTypes: {
