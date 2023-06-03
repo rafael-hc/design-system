@@ -1,5 +1,11 @@
 # @rhcode/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Define sizes variants
+
 ## 2.1.2
 
 ### Patch Changes
