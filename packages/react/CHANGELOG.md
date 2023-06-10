@@ -1,5 +1,11 @@
 # @rhcode/react
 
+## 2.3.0
+
+### Minor Changes
+
+- Changed the tailwind form strategy
+
 ## 2.2.1
 
 ### Patch Changes
