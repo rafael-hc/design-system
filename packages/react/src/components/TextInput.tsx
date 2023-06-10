@@ -20,7 +20,7 @@ export const TextInput = forwardRef<ElementRef<'input'>, TextInputProps>(
         )}
       >
         {!!prefix && (
-          <span className="font-default text-sm font-regular text-gray-400">
+          <span className="font-default text-sm font-regular leading-[0] text-gray-400">
             {prefix}
           </span>
         )}

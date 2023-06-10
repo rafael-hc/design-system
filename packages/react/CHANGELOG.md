@@ -1,5 +1,11 @@
 # @rhcode/react
 
+## 2.2.1
+
+### Patch Changes
+
+- Fixed line height of text input prefix
+
 ## 2.2.0
 
 ### Minor Changes
