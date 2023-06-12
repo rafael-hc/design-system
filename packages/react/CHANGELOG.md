@@ -1,5 +1,11 @@
 # @rhcode/react
 
+## 2.5.0
+
+### Minor Changes
+
+- Set forwardRef in Textarea
+
 ## 2.4.0
 
 ### Minor Changes
